@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:projetoaula/cadastro.dart';
+import 'package:projetoaula/principal.dart';
 
-import 'corpo.dart';
+import 'listagem.dart';
 
 void main() {
   runApp(App());
@@ -12,7 +14,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(),
-        body: Corpo(),
+        body: Principal(),
     ));
   }
 }

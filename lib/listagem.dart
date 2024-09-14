@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 
-class Corpo extends StatefulWidget {
+class Listagem extends StatefulWidget {
   @override
   State<StatefulWidget> createState() {
-    return _CorpoEstado();
+    return CorpoEstado();
   }
 }
 
-class _CorpoEstado extends State {
+class CorpoEstado extends State {
   @override
   Widget build(BuildContext context) {
     return ListView(
